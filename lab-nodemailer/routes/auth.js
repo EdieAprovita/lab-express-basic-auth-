@@ -68,7 +68,7 @@ router.post("/signup", (req, res, next) => {
       email: email
     });
 
-let message=`<a href="http://localhost:3000/auth/confirm/${token}">Pincha aquí</a>`
+let message=`<a href="http://localhost:3000/auth/confirm/${token}">Pica aquí</a>`
 
 let subject="Virus"
 
